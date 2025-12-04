@@ -22,3 +22,4 @@ print(f"\nScanning {host} from port {start} to {end}...\n")
 for port in range(start, end + 1):
     if scan_port(host, port):
         print(f"[OPEN]  {port}")
+
